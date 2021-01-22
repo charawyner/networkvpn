@@ -1,1 +1,368 @@
-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
+{
+    "Version": "1.12",
+    "Message": "servidor agregado 🇺🇸Fremont🇺🇸
+🇨🇴 movistar con redes - avantel 4g - etb-  redes
+🇲🇽 vigin - att - movistar - tekcel - etc
+🇵🇪 bitel - entel - claro 
+🇧🇴 entel - viva titok 
+🇺🇾 movistar - personal
+🇪🇨 tuenty - ctn
+🇬🇹 tigo movistar :)",
+    "Servers":[{
+        "Name": "1🇬🇧 londres test",
+        "SSHHost": "londres.networkvpn.ml",
+        "SSHPort": "22",
+        "DropBear": "80",
+        "SSLPort": "443",
+        "ProxyPort": "8080"
+    },{
+"Name": "2🇺🇸 fremont vip",
+"SSHHost": "usa01.networkvpn.ml",
+"SSHPort": "22",
+"DropBear": "80",
+"SSLPort": "443",
+"ProxyPort": "8080"
+},{
+"Name": "3🇺🇸 dallas vip",
+"SSHHost": "dallas-vip.networkvpn.ml",
+"SSHPort": "22",
+"DropBear": "80",
+"SSLPort": "443",
+"ProxyPort": "8080"
+}],
+"Tweaks": [{
+"Name": "🇨🇴 Avantel ssl🇨🇴",
+"Direct": false,
+"SSL": true,
+"Payload": "www.gov.co",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},
+{
+"Name": "🇨🇴 Avantel 2 ssl 🇨🇴",
+"Direct": false,
+"SSL": true,
+"Payload": "coronaviruscolombia.gov.co",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},
+{
+"Name": "🇨🇴 Avantel 3 payload🇨🇴",
+"SSL": false,
+"Direct": true,
+"Payload": "GET // HTTP/1.1 \nConnection: keep-alive\nHost:teprotejo.org [crlf][crlf]",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},
+{
+"Name": "🇨🇴 Avantel 4 payload🇨🇴",
+"SSL": false,
+"Direct": true,
+"Payload": "GET // HTTP/1.1 \nConnection: keep-alive\nHost:movil.colombiaaprende.edu.co [crlf][crlf]",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},
+{
+"Name": "🇨🇴 Movistar wapsapp 🇨🇴",
+"SSL": true,
+"Direct": false,
+"Payload": "c.whatsapp.net",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},
+{
+"Name": "🇨🇴 Movistar pospago🇨🇴",
+"SSL": true,
+"Direct": false,
+"Payload": "www.rappi.com",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},
+{
+"Name": "🇨🇴etb redes🇨🇴",
+"SSL": true,
+"Direct": false,
+"Payload": "c.whatsapp.net",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},
+{
+"Name": "🇲🇽 Movistar redes 🇲🇽",
+"SSL": true,
+"Direct": false,
+"Payload": "c.whatsapp.net",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},
+{
+"Name": "🇲🇽Movistar sin saldo🇲🇽",
+"SSL": true,
+"Direct": false,
+"Payload": "tufacturaonline.movistar.com.mx",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},
+{
+"Name": "🇲🇽 unefon redes 🇲🇽",
+"SSL": true,
+"Direct": false,
+"Payload": "m.facebook.com",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},
+{
+"Name": "🇲🇽 atte redes🇲🇽",
+"SSL": true,
+"Direct": false,
+"Payload": "instagram.com",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},
+{
+"Name": "🇲🇽 simpli sin saldo 🇲🇽",
+"SSL": true,
+"Direct": false,
+"Payload": "coronavirus.gob.mx",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},
+{
+"Name": "🇲🇽 atte redes🇲🇽",
+"SSL": true,
+"Direct": false,
+"Payload": "instagram.com",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},
+{
+"Name": "🇲🇽 virgin sin saldo 🇲🇽",
+"SSL": true,
+"Direct": false,
+"Payload": "coronavirus.gob.mx",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},
+{
+"Name": "🇲🇽 weex redes🇲🇽",
+"SSL": true,
+"Direct": false,
+"Payload": "c.whatsapp.net",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},
+{
+"Name": "🇲🇽 weex sin saldo 🇲🇽",
+"SSL": true,
+"Direct": false,
+"Payload": "coronavirus.gob.mx",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},
+{
+"Name": "🇲🇽telcel redes🇲🇽",
+"SSL": true,
+"Direct": false,
+"Payload": "video.facebook.com",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},
+{
+"Name": "🇵🇪 entel sin saldo 🇵🇪",
+"SSL": false,
+"Direct": true,
+"Payload": "CONNECT http://autoatencion.entel.pe/recarga/ HTTP/1.0[crlf]User-Agent: [ua][crlf][crlf][internetfree_split][method] [host_port]@autoatencion.entel.pe/recarga [protocol][crlf][crlf]",
+"CustomProxy": false,
+"ProxyHost": "46.101.108.58",
+"ProxyPort": "8081"
+},
+{
+"Name": "🇵🇪 entel sin saldo 2🇵🇪",
+"SSL": false,
+"Direct": true,
+"Payload": "CONNECT autoatencion.entel.pe/recarga@[host_port] HTTP/1.1[crlf]POST http://autoatencion.entel.pe/recarga/ [protocol][crlf][crlf]Host: autoatencion.entel.pe/recarga[crlf]X-Forwarded-For: autoatencion.entel.pe/recarga[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Referer: autoatencion.entel.pe/recarga[crlf][crlf]",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},
+{
+"Name": "🇵🇪 claro sin saldo🇵🇪",
+"SSL": false,
+"Direct": true,
+"Payload": "POST www.internetclaro.com.pe:8080/CaptivePortal/?reared=005/SESSIONID=huawei130.huawei.claro;3648315128;520;14564&SITEID=2&RG=12&IN/ HTTP/[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SAMSUNG-SM-T537A BuilCONNECT [host]:[port] HTTP/1.0[crlf][crlf/KOT49H) AppleWebKit/537.36 (KHTML like Gecko) Chrome/35.0.1916.141 Safari/537.36[crlf]Content-Length: 9999999[crlf][crlf]]",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},
+{
+"Name": "🇵🇪 bitel sin saldo🇵🇪",
+"SSL": false,
+"Direct": true,
+"Payload": "GET http://api.aprendoencasa.pe/ HTTP/1.1[crlf]Host: api.aprendoencasa.pe[crlf] Access-Control-Allow-Credentials: true, true[lf] Access-Control-Allow-Headers: X-Requested-With,Content-Type, X-Requested-With,Content-Type[lf] Access-Control-Allow-Methods: GET,PUT,OPTIONS,POST,DELETE, GET,PUT,OPTIONS,POST,DELETE[lf] Age: 8, 8[lf] Cache-Control: max-age=86400[lf] public[lf] Connection: keep-alive[lf] Content-Type: text/html; charset=UTF-8[crlf]Content-Length: 9999999999999[crlf]UseDNS: Yes[crlf]Vary: Accept-Encoding[crlf]",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},
+{
+"Name": "🇵🇪 bitel sin saldo 2🇵🇪",
+"SSL": false,
+"Direct": true,
+"Payload": "TRACE http://aprendoencasa.pe HTTP/1.1[crlf]
+Host: aprendoencasa.pe[crlf]
+User-Agent: [ua][crlf]
+[crlf]",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},
+{
+"Name": "🇧🇴 entel pakete free fire🇧🇴",
+"Direct": false,
+"SSL": true,
+"Payload": "connect.garenanow.com",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},
+{
+"Name": "🇧🇴 entel 🇧🇴",
+"Direct": false,
+"SSL": false,
+"Payload": "GET http://ecine.entel.bo
+HTTP/1.1
+Host:ecine.entel.bo
+User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
+Connection: close 
+kkReferer:http://ecine.entel.bo
+Content-Type: text/html; charset=iso-8859-1
+Content-Length:0
+Accept: text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+CONNECT [host]:[port] HTTP/1.0[crlf][crlf",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": "8080"
+},
+{
+"Name": "🇧🇴 entel payload🇧🇴",
+"Direct": true,
+"SSL": false,
+"Payload": "GET http://[crlf] HTTP/1.1[crlf]Host:ecine.entel.bo[crlf]User-Agent: [ua][crlf]Connection: close [crlf]  kkReferer:http://ecine.entel.bo[crlf]  Content-Type: text/html; charset=iso-8859-1[crlf]  Content-Length:0[crlf]Accept: text/html;q=0.9,text/plain;q=0.8,image /png,*/*;q=0.5[crlf]CONNECT ARAGETIC.GOB.BO.networkvpn.ml:80 [protocol][crlf][crlf] [crlf]",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},
+{
+"Name": "🇬🇹 Movistar sin saldo",
+"SSL": false,
+"Direct": true,
+"Payload": "MOVE movistarvideo.com HTTP/1.1\ Host: movistarvideo.com[crlf]
+[crlf]
+Connection:  close[crlf]
+Referer:  http://movistarvideo.com[crlf]
+X-Online-Host:  http://movistarvideo.com[crlf]
+X-Forward-Host:  http://movistarvideo.com[crlf]
+X-Forwarded-For:  http://movistarvideo.com[crlf]",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},
+{
+"Name": "🇬🇹 tigo🔵",
+"SSL": true,
+"Direct": false,
+"Payload": "www.deezer.com",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},
+{
+"Name": "🇵🇾 personal 🔰",
+"SSL": true,
+"Direct": false,
+"Payload": "www.periodistadigital.com",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},
+{
+"Name": "🇪🇨 Movistar play🔵",
+"SSL": true,
+"Direct": false,
+"Payload": "play.movistar.com.ec",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},
+{
+"Name": "🇪🇨 ctn 1",
+"SSL": true,
+"Direct": false,
+"Payload": "data.flurry.com",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},
+{
+"Name": "🇪🇨 ctn 2",
+"SSL": true,
+"Direct": false,
+"Payload": "blog.whatsapp.net",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},
+{
+"Name": "🇪🇨 Tuenty",
+"SSL": true,
+"Direct": false,
+"Payload": "www.spotify.com",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},
+{
+"Name": "🇦🇷personal 🔵",
+"SSL": false,
+"Direct": true,
+"Payload": "GET http://mini5-1.opera-mini.net:80/ HTTP/1.0
+Content-Type: application/octet-stream
+Host: wwww.personal.com;
+Accept: */*
+Accept-Encoding: identity; q=1.0, *;q=0
+Connection: keep-alive/r
+Content-Length: 16[crlf]",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},
+{
+"Name": "🇺🇾 Movistar",
+"SSL": false,
+"Direct": true,
+"Payload": "GET http://www.skynet.com HTTP/1.1
+Host: www.skynet.com
+User-Agent: Yes
+Connection: close
+Proxy-Connection: Keep-Alive
+[crlf][crlf][netData][crlf] [crlf][crlf]",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+  }]
+}
