@@ -1,28 +1,34 @@
 {
-    "Version": "1.11",
-    "Message": "NUEVAS PROMOS ACTUALIZADOS
+    "Version": "1.13",
+    "Message": " agregado servidor testeador para prubas de velocidad
 🇨🇴 movistar sin redes - avantel 4g - etb-  redes
 🇲🇽 vigin - att - movistar - tekcel - etc
-🇵🇪 bitel - entel - claro 
-🇧🇴 entel - viva titok 
+🇵🇪 bitel - entel - claro  
 🇺🇾 movistar - personal
 🇪🇨 tuenty - ctn
 🇬🇹 tigo movistar :)",
     "Servers":[{
-        "Name": "1🇬🇧 londres free",
-        "SSHHost": "londres.networkvpn.ml",
-        "SSHPort": "22",
-        "DropBear": "80",
-        "SSLPort": "443",
-        "ProxyPort": "8080"
-    },{
-"Name": "2🇺🇸 dallas vip",
+"Name": "1🇺🇸 dallas vip",
 "SSHHost": "dallas-vip.networkvpn.ml",
 "SSHPort": "22",
 "DropBear": "80",
 "SSLPort": "443",
 "ProxyPort": "8080"
-}],
+},{
+        "Name": "2🇺🇸fremont🚀",
+        "SSHHost": "usa01.networkvpn.ml",
+        "SSHPort": "22",
+        "DropBear": "80",
+        "SSLPort": "443",
+        "ProxyPort": "8080"
+    },{
+        "Name": "🚀testeador🚀",
+        "SSHHost": "test.networkvpn.ml",
+        "SSHPort": "22",
+        "DropBear": "80",
+        "SSLPort": "443",
+        "ProxyPort": "8080"
+    }],
 "Tweaks": [{
 "Name": "🇨🇴 Avantel ssl🇨🇴",
 "Direct": false,
@@ -234,43 +240,16 @@ User-Agent: [ua][crlf]
 "ProxyPort": ""
 },
 {
-"Name": "🇧🇴 entel 🇧🇴",
-"Direct": false,
-"SSL": false,
-"Payload": "GET http://ecine.entel.bo
-HTTP/1.1
-Host:ecine.entel.bo
-User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
-Connection: close 
-kkReferer:http://ecine.entel.bo
-Content-Type: text/html; charset=iso-8859-1
-Content-Length:0
-Accept: text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
-CONNECT [host]:[port] HTTP/1.0[crlf][crlf",
-"CustomProxy": false,
-"ProxyHost": "",
-"ProxyPort": "8080"
-},
-{
-"Name": "🇧🇴 entel payload🇧🇴",
-"Direct": true,
-"SSL": false,
-"Payload": "GET http://[crlf] HTTP/1.1[crlf]Host:ecine.entel.bo[crlf]User-Agent: [ua][crlf]Connection: close [crlf]  kkReferer:http://ecine.entel.bo[crlf]  Content-Type: text/html; charset=iso-8859-1[crlf]  Content-Length:0[crlf]Accept: text/html;q=0.9,text/plain;q=0.8,image /png,*/*;q=0.5[crlf]CONNECT ARAGETIC.GOB.BO.networkvpn.ml:80 [protocol][crlf][crlf] [crlf]",
-"CustomProxy": false,
-"ProxyHost": "",
-"ProxyPort": ""
-},
-{
 "Name": "🇬🇹 Movistar sin saldo",
 "SSL": false,
 "Direct": true,
 "Payload": "MOVE movistarvideo.com HTTP/1.1\ Host: movistarvideo.com[crlf]
 [crlf]
-Connection:  close[crlf]
-Referer:  http://movistarvideo.com[crlf]
-X-Online-Host:  http://movistarvideo.com[crlf]
-X-Forward-Host:  http://movistarvideo.com[crlf]
-X-Forwarded-For:  http://movistarvideo.com[crlf]",
+Connection:  close[crlf]
+Referer:  http://movistarvideo.com[crlf]
+X-Online-Host:  http://movistarvideo.com[crlf]
+X-Forward-Host:  http://movistarvideo.com[crlf]
+X-Forwarded-For:  http://movistarvideo.com[crlf]",
 "CustomProxy": false,
 "ProxyHost": "",
 "ProxyPort": ""
@@ -359,4 +338,3 @@ Proxy-Connection: Keep-Alive
 "ProxyPort": ""
   }]
 }
-
