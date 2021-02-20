@@ -60,7 +60,7 @@ proxies:
   - h2
   - http/1.1
   skip-cert-verify: true
-  
+ 
   - name: "movistar redes"
   type: trojan
   server: pv.networkvpn.ml
@@ -78,8 +78,8 @@ proxy-groups:
   type: select
   proxies:
     - avantel
-    - movistar redes
    
+  
   url: 'http://www.gstatic.com/generate_204'
   interval: 300
 
