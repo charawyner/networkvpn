@@ -61,11 +61,24 @@ proxies:
   - http/1.1
   skip-cert-verify: true
   
+  - name: "movistar redes"
+  type: trojan
+  server: pv.networkvpn.ml
+  port: 443
+  password: bf93cd98-ee23-4625-b4e0-bc22d4df18dd
+  udp: true
+  sni: whatsapp.net
+  alpn:
+  - h2
+  - http/1.1
+  skip-cert-verify: true
+  
 proxy-groups:
 - name: "PROXY"
   type: select
   proxies:
     - avantel
+    - movistar redes
    
   url: 'http://www.gstatic.com/generate_204'
   interval: 300
