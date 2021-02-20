@@ -53,7 +53,7 @@ proxies:
   type: trojan
   server: pv.networkvpn.ml
   port: 443
-  password: 4d490835-72c8-f8de-66d4-8d2576c4d014
+  password: bf93cd98-ee23-4625-b4e0-bc22d4df18dd
   udp: true
   sni: www.gov.co
   alpn:
