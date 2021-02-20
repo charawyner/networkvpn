@@ -49,20 +49,8 @@ cfw-latency-timeout: 5000
 proxies:
 
 
-- name: "avantel"
-  type: trojan
-  server: pv.networkvpn.ml
-  port: 443
-  password: bf93cd98-ee23-4625-b4e0-bc22d4df18dd
-  udp: true
-  sni: www.gov.co
-  alpn:
-  - h2
-  - http/1.1
-  skip-cert-verify: true
- 
-  - name: "movistar redes"
-  type: trojan
+- name: movistar
+  type: "trojan"
   server: pv.networkvpn.ml
   port: 443
   password: bf93cd98-ee23-4625-b4e0-bc22d4df18dd
@@ -72,6 +60,19 @@ proxies:
   - h2
   - http/1.1
   skip-cert-verify: true
+  
+  - name: avantel
+  type: "trojan"
+  server: pv.networkvpn.ml
+  port: 443
+  password: bf93cd98-ee23-4625-b4e0-bc22d4df18dd
+  udp: true
+  sni: www.gov.co
+  alpn:
+  - h2
+  - http/1.1
+  skip-cert-verify: true
+  
   
 proxy-groups:
 - name: "PROXY"
