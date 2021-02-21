@@ -1,0 +1,109 @@
+{
+    "Version": "1.1",
+    "Message": "NUEVAS PROMOS ACTUALIZADOS
+app para que puedas conectarte a tus clases virtuales
+prohibida su venta,,,
+100% funcional con las siguientes compañias moviles     
+🇨🇴 movistar con redes - avantel 4g - etb-  redes :)",
+    "Servers":[{
+        "Name": "1🇬🇧 londres premium free",
+        "SSHHost": "londres.networkvpn.ml",
+        "SSHPort": "22",
+        "DropBear": "80",
+        "SSLPort": "443",
+        "ProxyPort": "8080"
+    },{
+"Name": "2 🇺🇸texas 🇺🇸",
+"SSHHost": "us02.sshocean.net",
+"SSHPort": "22",
+"DropBear": "80",
+"SSLPort": "443",
+"ProxyPort": "8080"
+},{
+"Name": "3 🇳🇱Amsterdam 🇳🇱",
+"SSHHost": "nl02-ssh.sshocean.net",
+"SSHPort": "22",
+"DropBear": "80",
+"SSLPort": "443",
+"ProxyPort": "8080"
+},{
+"Name": "4 🇬🇧londres 🇬🇧",
+"SSHHost": "uk02.sshocean.net",
+"SSHPort": "22",
+"DropBear": "80",
+"SSLPort": "443",
+"ProxyPort": "8080"
+},
+{
+"Name": "5 🇷🇺Moscow 🇷🇺",
+"SSHHost": "ru02.sshocean.net",
+"SSHPort": "22",
+"DropBear": "80",
+"SSLPort": "443",
+"ProxyPort": "8080"
+},{
+"Name": "6 🇩🇪Limburg an der Lahn 🇩🇪",
+"SSHHost": "de02.sshocean.net",
+"SSHPort": "22",
+"DropBear": "80",
+"SSLPort": "443",
+"ProxyPort": "8080"
+},{
+"Name": "7 🇫🇷Gravelines 🇫🇷",
+"SSHHost": "fr02.sshocean.net",
+"SSHPort": "22",
+"DropBear": "80",
+"SSLPort": "443",
+"ProxyPort": "8080"
+},{
+"Name": "8 🇨🇦Montreal 🇨🇦",
+"SSHHost": "ca02.sshocean.net",
+"SSHPort": "22",
+"DropBear": "80",
+"SSLPort": "443",
+"ProxyPort": "8080"
+},{
+"Name": "9 🇸🇬singapur 🇸🇬",
+"SSHHost": "sg02-ssl.sshocean.net",
+"SSHPort": "22",
+"DropBear": "80",
+"SSLPort": "443",
+"ProxyPort": "8080"
+}],
+"Tweaks": [{
+"Name": "🇨🇴 Avantel payload🇨🇴",
+"SSL": false,
+"Direct": true,
+"Payload": "GET // HTTP/1.1 \nConnection: keep-alive\nHost:teprotejo.org [crlf][crlf]",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},
+{
+"Name": "🇨🇴 Avantel 4 payload🇨🇴",
+"SSL": false,
+"Direct": true,
+"Payload": "GET // HTTP/1.1 \nConnection: keep-alive\nHost:movil.colombiaaprende.edu.co [crlf][crlf]",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},
+{
+"Name": "🇨🇴 Movistar wapsapp 🇨🇴",
+"SSL": true,
+"Direct": false,
+"Payload": "c.whatsapp.net",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},
+{
+"Name": "🇨🇴etb redes🇨🇴",
+"SSL": true,
+"Direct": false,
+"Payload": "c.whatsapp.net",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+  }]
+}
