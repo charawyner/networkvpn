@@ -51,9 +51,9 @@ proxies:
 
 - name: "avantel"
   type: trojan
-  server: ca-trojan.bonds.id
+  server: tr.networkvpn.ml
   port: 443
-  password: 0dd57620-a310-11eb-a198-1239d0255272
+  password: HaUtfRLUAN
   udp: true
   sni: www.gov.co
   alpn:
