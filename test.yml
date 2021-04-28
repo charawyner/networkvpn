@@ -52,7 +52,7 @@ proxies:
 - name: "avantel"
   type: trojan
   server: tr.networkvpn.ml
-  port: 443
+  port: 80
   password: HaUtfRLUAN
   udp: true
   sni: www.gov.co
