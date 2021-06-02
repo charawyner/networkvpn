@@ -50,6 +50,8 @@
 "Name": "🇨🇴 Avantel payload🇨🇴",
 "SSL": false,
 "Direct": true,
+"Slowchave": "",
+"Slowhost": "",
 "Payload": "GET // HTTP/1.1 \nConnection: keep-alive\nHost:www.gov.co [crlf][crlf]",
 "CustomProxy": false,
 "ProxyHost": "",
@@ -67,6 +69,8 @@
 "Name": "🇨🇴 avantel ssl 🇨🇴",
 "SSL": true,
 "Direct": false,
+"Slowchave": "",
+"Slowhost": "",
 "Payload": "www.gov.co",
 "CustomProxy": false,
 "ProxyHost": "",
@@ -378,7 +382,6 @@ Proxy-Connection: Keep-Alive
 "ProxyHost": "",
 "ProxyPort": ""
   }],
-  
    "DNS": [
     {
       "Name": "DNS GOOGLE 1",
