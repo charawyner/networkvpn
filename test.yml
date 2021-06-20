@@ -60,15 +60,13 @@ proxies:
   - h2
   - http/1.1
   skip-cert-verify: true
-  
-  - {name: tigocdn1, server: 172.67.158.10, port: 443, type: vmess, uuid: be476d08-341d-4dbf-a75c-484cf43dc7be, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /testcdn, ws-headers: {Host: v2ray.mynetfree.tk}}
-  
+
 proxy-groups:
 - name: "PROXY"
   type: select
   proxies:
     - avantel
-    - tigocdn1
+  
    
   url: 'http://www.gstatic.com/generate_204'
   interval: 300
@@ -77,14 +75,13 @@ proxy-groups:
   type: select
   proxies:
     - avantel
-    - tigocdn1
     - "PROXY"
 
 - name: "Apple"
   type: select
   proxies:
     - avantel
-    - tigocdn1
+   
 
     - "PROXY"
 
