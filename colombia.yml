@@ -91,13 +91,21 @@ proxy-groups:
 - name: "Final"
   type: select
   proxies:
-    - avantel
+    - 🚀tigocdn1🔮
+    - 🚀tigocdn2🟦
+    - 🚀tigocdn3🔯
+    - 🚀avantel🛑
+    - 🚀movistar🍃
     - "PROXY"
 
 - name: "Apple"
   type: select
   proxies:
-    - avantel
+    - 🚀tigocdn1🔮
+    - 🚀tigocdn2🟦
+    - 🚀tigocdn3🔯
+    - 🚀avantel🛑
+    - 🚀movistar🍃
    
 
     - "PROXY"
@@ -110,12 +118,21 @@ proxy-groups:
 - name: "HKMTMedia"
   type: select
   proxies:
+    - 🚀tigocdn1🔮
+    - 🚀tigocdn2🟦
+    - 🚀tigocdn3🔯
+    - 🚀avantel🛑
+    - 🚀movistar🍃
     - "PROXY"
 
 - name: "Hijacking"
   type: select
   proxies:
-    - avantel
+    - 🚀tigocdn1🔮
+    - 🚀tigocdn2🟦
+    - 🚀tigocdn3🔯
+    - 🚀avantel🛑
+    - 🚀movistar🍃
 
     - "PROXY"
 
