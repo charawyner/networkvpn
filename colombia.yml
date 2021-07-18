@@ -52,6 +52,7 @@ proxies:
 - {name: 🚀tigocdn3🔯, server: 104.16.88.20, port: 443, type: vmess, uuid: be476d08-341d-4dbf-a75c-484cf43dc7be, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /testcdn, ws-headers: {Host: v2ray.mynetfree.tk}}
 - {name: 🚀tigo cdn🔯, server: 104.16.88.20, port: 443, type: vmess, uuid: dc9a9f57-3209-4176-af7b-f1e5ee79a234, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /brahian, ws-headers: {Host: v2ray.mynetfree.tk}}
 - {name: 🚀MOVISTAR🔯, server: usav2.networkvpn.ml, port: 443, type: vmess, uuid: dc9a9f57-3209-4176-af7b-f1e5ee79a234, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /brahian, ws-headers: {Host: www.mutualser.org}}
+- {name: movistar sin saldo 1, server: tr.networkvpn.ml, port: 80, type: trojan, password: HaUtfRLUAN, sni: www.mutualser.org}
 
 - name: "🚀avantel🛑"
   type: trojan
