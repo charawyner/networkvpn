@@ -62,6 +62,18 @@ proxies:
   - h2
   - http/1.1
   skip-cert-verify: true
+  
+  - name: "🚀movistar SIN REDES🍃"
+  type: trojan
+  server: tr.networkvpn.ml
+  port: 80
+  password: HaUtfRLUAN
+  udp: true
+  sni: whatsapp.net
+  alpn:
+  - h2
+  - http/1.1
+  skip-cert-verify: true
 
 - name: "🚀movistar🍃"
   type: trojan
@@ -84,6 +96,7 @@ proxy-groups:
     - 🚀tigocdn3🔯
     - 🚀avantel🛑
     - 🚀movistar🍃
+    - 🚀movistar SIN REDES🍃
    
   url: 'http://www.gstatic.com/generate_204'
   interval: 300
@@ -96,6 +109,7 @@ proxy-groups:
     - 🚀tigocdn3🔯
     - 🚀avantel🛑
     - 🚀movistar🍃
+    - 🚀movistar SIN REDES🍃
     - "PROXY"
 
 - name: "Apple"
@@ -106,6 +120,7 @@ proxy-groups:
     - 🚀tigocdn3🔯
     - 🚀avantel🛑
     - 🚀movistar🍃
+    - 🚀movistar SIN REDES🍃
    
 
     - "PROXY"
@@ -123,6 +138,7 @@ proxy-groups:
     - 🚀tigocdn3🔯
     - 🚀avantel🛑
     - 🚀movistar🍃
+    - 🚀movistar SIN REDES🍃
     - "PROXY"
 
 - name: "Hijacking"
@@ -133,6 +149,7 @@ proxy-groups:
     - 🚀tigocdn3🔯
     - 🚀avantel🛑
     - 🚀movistar🍃
+    - 🚀movistar SIN REDES🍃
 
     - "PROXY"
 
