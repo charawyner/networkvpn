@@ -69,7 +69,7 @@ proxies:
   port: 80
   password: HaUtfRLUAN
   udp: true
-  sni: whatsapp.net
+  sni: www.mutualser.org
   alpn:
   - h2
   - http/1.1
