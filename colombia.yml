@@ -78,7 +78,7 @@ proxies:
   - http/1.1
   skip-cert-verify: true
 
-- name: "🚀movistar🍃"
+  - name: "🚀movistar🍃"
   type: trojan
   server: tr.networkvpn.ml
   port: 80
