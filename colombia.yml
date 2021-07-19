@@ -51,34 +51,10 @@ proxies:
 - {name: 🚀tigocdn2🟦, server: 172.67.158.10, port: 443, type: vmess, uuid: be476d08-341d-4dbf-a75c-484cf43dc7be, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /testcdn, ws-headers: {Host: v2ray.mynetfree.tk}}
 - {name: 🚀tigocdn3🔯, server: 104.16.88.20, port: 443, type: vmess, uuid: be476d08-341d-4dbf-a75c-484cf43dc7be, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /testcdn, ws-headers: {Host: v2ray.mynetfree.tk}}
 - {name: 🚀tigo cdn🔯, server: 104.16.88.20, port: 443, type: vmess, uuid: dc9a9f57-3209-4176-af7b-f1e5ee79a234, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /brahian, ws-headers: {Host: v2ray.mynetfree.tk}}
-- {name: 🚀MOVISTAR🔯, server: usav2.networkvpn.ml, port: 443, type: vmess, uuid: dc9a9f57-3209-4176-af7b-f1e5ee79a234, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /brahian, ws-headers: {Host: www.mutualser.org}}
-- {name: movistar sin saldo 1, server: tr.networkvpn.ml, port: 80, type: trojan, password: HaUtfRLUAN, sni: www.mutualser.org}
-- {name: avantel, server: tr.networkvpn.ml, port: 80, type: trojan, password: HaUtfRLUAN, sni: www.gov.co}
+- {name: 🚀movistar🍃, server: usav2.networkvpn.ml, port: 443, type: vmess, uuid: dc9a9f57-3209-4176-af7b-f1e5ee79a234, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /brahian, ws-headers: {Host: www.mutualser.org}}
+- {name: 🚀movistar SIN REDES🍃, server: tr.networkvpn.ml, port: 80, type: trojan, password: HaUtfRLUAN, sni: www.mutualser.org}
+- {name: 🚀avantel🛑, server: tr.networkvpn.ml, port: 80, type: trojan, password: HaUtfRLUAN, sni: www.gov.co}
   
-  - name: "🚀movistar SIN REDES🍃"
-  type: trojan
-  server: tr.networkvpn.ml
-  port: 80
-  password: HaUtfRLUAN
-  udp: true
-  sni: www.mutualser.org
-  alpn:
-  - h2
-  - http/1.1
-  skip-cert-verify: true
-
-  - name: "🚀movistar🍃"
-  type: trojan
-  server: tr.networkvpn.ml
-  port: 80
-  password: HaUtfRLUAN
-  udp: true
-  sni: whatsapp.net
-  alpn:
-  - h2
-  - http/1.1
-  skip-cert-verify: true
-
 proxy-groups:
 - name: "PROXY"
   type: select
@@ -86,10 +62,13 @@ proxy-groups:
     - 🚀tigocdn1🔮
     - 🚀tigocdn2🟦
     - 🚀tigocdn3🔯
-    - 🚀avantel🛑
+    - 🚀tigo cdn🔯
     - 🚀movistar🍃
     - 🚀movistar SIN REDES🍃
+    - 🚀avantel🛑
+
    
+ 
   url: 'http://www.gstatic.com/generate_204'
   interval: 300
 
@@ -99,12 +78,11 @@ proxy-groups:
     - 🚀tigocdn1🔮
     - 🚀tigocdn2🟦
     - 🚀tigocdn3🔯
-    - 🚀avantel🛑
+    - 🚀tigo cdn🔯
     - 🚀movistar🍃
     - 🚀movistar SIN REDES🍃
-    - 🚀tigo cdn🔯
-    -🚀MOVISTAR🔯
-    - "PROXY"
+    - 🚀avantel🛑
+ 
 
 - name: "Apple"
   type: select
@@ -112,11 +90,11 @@ proxy-groups:
     - 🚀tigocdn1🔮
     - 🚀tigocdn2🟦
     - 🚀tigocdn3🔯
-    - 🚀avantel🛑
+    - 🚀tigo cdn🔯
     - 🚀movistar🍃
     - 🚀movistar SIN REDES🍃
-    - 🚀tigo cdn🔯
-    -🚀MOVISTAR🔯
+    - 🚀avantel🛑
+ 
    
 
     - "PROXY"
@@ -124,6 +102,14 @@ proxy-groups:
 - name: "GlobalMedia"
   type: select
   proxies:
+    - 🚀tigocdn1🔮
+    - 🚀tigocdn2🟦
+    - 🚀tigocdn3🔯
+    - 🚀tigo cdn🔯
+    - 🚀movistar🍃
+    - 🚀movistar SIN REDES🍃
+    - 🚀avantel🛑
+
     - "PROXY"
 
 - name: "HKMTMedia"
@@ -132,12 +118,11 @@ proxy-groups:
     - 🚀tigocdn1🔮
     - 🚀tigocdn2🟦
     - 🚀tigocdn3🔯
-    - 🚀avantel🛑
+    - 🚀tigo cdn🔯
     - 🚀movistar🍃
     - 🚀movistar SIN REDES🍃
-    - 🚀tigo cdn🔯
-    -🚀MOVISTAR🔯
-    - "PROXY"
+    - 🚀avantel🛑
+   
 
 - name: "Hijacking"
   type: select
@@ -145,12 +130,11 @@ proxy-groups:
     - 🚀tigocdn1🔮
     - 🚀tigocdn2🟦
     - 🚀tigocdn3🔯
-    - 🚀avantel🛑
+    - 🚀tigo cdn🔯
     - 🚀movistar🍃
     - 🚀movistar SIN REDES🍃
-    - 🚀tigo cdn🔯
-    -🚀MOVISTAR🔯
-
+    - 🚀avantel🛑
+    
     - "PROXY"
 
 
