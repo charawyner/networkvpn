@@ -51,7 +51,7 @@ proxies:
 - {name: 🚀tigocdn2🟦, server: 172.67.158.10, port: 443, type: vmess, uuid: be476d08-341d-4dbf-a75c-484cf43dc7be, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /testcdn, ws-headers: {Host: v2ray.mynetfree.tk}}
 - {name: 🚀tigocdn3🔯, server: 104.16.88.20, port: 443, type: vmess, uuid: be476d08-341d-4dbf-a75c-484cf43dc7be, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /testcdn, ws-headers: {Host: v2ray.mynetfree.tk}}
 - {name: 🚀tigo cdn🔯, server: 104.16.88.20, port: 443, type: vmess, uuid: dc9a9f57-3209-4176-af7b-f1e5ee79a234, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /brahian, ws-headers: {Host: v2ray.mynetfree.tk}}
-- {name: 🚀movistar🍃, server: usav2.networkvpn.ml, port: 443, type: vmess, uuid: be476d08-341d-4dbf-a75c-484cf43dc7be, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /testcdn, ws-headers: {Host: www.mutualser.org}}
+- {name: 🚀movistar🍃, server: 172.104.199.205, port: 443, type: vmess, uuid: be476d08-341d-4dbf-a75c-484cf43dc7be, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /testcdn, ws-headers: {Host: www.mutualser.org}}
 - {name: 🚀movistar SIN REDES🍃, server: tr.networkvpn.ml, port: 80, type: trojan, password: HaUtfRLUAN, sni: www.mutualser.org}
 - {name: 🚀avantel🛑, server: tr.networkvpn.ml, port: 80, type: trojan, password: HaUtfRLUAN, sni: www.gov.co}
   
