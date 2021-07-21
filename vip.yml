@@ -1,7 +1,7 @@
 port: 7890
 socks-port: 7891
 redir-port: 7892
-allow-lan: false
+allow-lan: true
 mode: Rule
 log-level: info
 external-controller: '0.0.0.0:9090'
@@ -49,14 +49,32 @@ cfw-latency-timeout: 5000
 proxies:
 
 - {name: tigocdn2, server: 172.67.158.10, port: 443, type: vmess, uuid: be476d08-341d-4dbf-a75c-484cf43dc7be, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /testcdn, ws-headers: {Host: v2ray.mynetfree.tk}}
+- {name: movistar 1, server: 172.104.199.205, port: 443, type: vmess, uuid: be476d08-341d-4dbf-a75c-484cf43dc7be, alterId: 64, cipher: auto,udp: true, tls: true, skip-cert-verify: true, network: ws, ws-path: /testcdn, ws-headers: {Host: www.mutualser.org}}
+- {name: 🚀avantel🛑, server: tr.networkvpn.ml, port: 80, type: trojan, password: HaUtfRLUAN, udp: true, skip-cert-verify: true, sni: www.mutualser.org,}
 
-- name: "avantel"
+
+- name: "movistar" 
+  type: vmess
+  server: 172.104.199.205
+  port: 443
+  uuid: be476d08-341d-4dbf-a75c-484cf43dc7be
+  alterId: 64
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /testcdn
+  ws-headers: {Host: www.mutualser.org} 
+  
+
+- name: "movistar test2"
   type: trojan
-  server: tr.networkvpn.ml
+  server: 74.207.224.234
   port: 80
   password: HaUtfRLUAN
   udp: true
-  sni: www.gov.co
+  sni: www.mutualser.org
   alpn:
   - h2
   - http/1.1
@@ -66,8 +84,11 @@ proxy-groups:
 - name: "PROXY"
   type: select
   proxies:
-    - avantel
+    - movistar
+    - movistar 1
     - tigocdn2
+    - 🚀avantel🛑
+    - movistar test2
   
    
   url: 'http://www.gstatic.com/generate_204'
@@ -76,13 +97,17 @@ proxy-groups:
 - name: "Final"
   type: select
   proxies:
-    - avantel
+    - movistar
+    - tigocdn2
+    - movistar test2
     - "PROXY"
 
 - name: "Apple"
   type: select
   proxies:
-    - avantel
+    - movistar
+    - tigocdn2
+    - movistar test2
    
 
     - "PROXY"
@@ -100,7 +125,9 @@ proxy-groups:
 - name: "Hijacking"
   type: select
   proxies:
-    - avantel
+    - movistar
+    - tigocdn2
+    - movistar test2
 
     - "PROXY"
 
