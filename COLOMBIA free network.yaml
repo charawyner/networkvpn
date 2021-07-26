@@ -1,0 +1,117 @@
+{
+    "Version": "1.29",
+    "Message": "NUEVAS PROMOS ACTUALIZADOS
+🇨🇴 avantel sin redes 
+🇨🇴 movistar sin redes
+🇨🇴 claro con redes
+🇨🇴 virgin tiktok 
+🇨🇴 etb con redes
+reproduciendo .................................................
+     🎥  Netflix 🎥 
+     📺  IPTV    📺
+     📞 llamadas voip 📺
+      🎮  juegos ping bajo 🎮 :)",
+    "Servers":[{
+        "Name": "1🇺🇸 usa ",
+        "SSHHost": "londres.networkvpn.ml",
+        "SSHPort": "22",
+        "DropBear": "80",
+        "SSLPort": "443",
+        "ProxyPort": "8080"
+    },{
+        "Name": "2 🇨🇦 canada",
+        "SSHHost": "ca1.free.networkvpn.ml",
+        "SSHPort": "22",
+        "DropBear": "80",
+        "SSLPort": "443",
+        "ProxyPort": "8080"
+    },{
+        "Name": "2 🇬🇧 reino unido",
+        "SSHHost": "uk1.free.networkvpn.ml",
+        "SSHPort": "22",
+        "DropBear": "80",
+        "SSLPort": "443",
+        "ProxyPort": "8080"
+    }],
+"Tweaks": [{
+"Name": "🇨🇴 Avantel ssl🇨🇴",
+"Direct": false,
+"SSL": true,
+"Payload": "www.gov.co",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},{
+"Name": "🇨🇴 Avantel 2 ssl 🇨🇴",
+"Direct": false,
+"SSL": true,
+"Payload": "coronaviruscolombia.gov.co",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},{
+"Name": "🇨🇴 Avantel 3 payload🇨🇴",
+"SSL": false,
+"Direct": true,
+"Payload": "GET // HTTP/1.1 \nConnection: keep-alive\nHost:teprotejo.org [crlf][crlf]",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},{
+"Name": "🇨🇴 Avantel 4 payload🇨🇴",
+"SSL": false,
+"Direct": true,
+"Payload": "GET // HTTP/1.1 \nConnection: keep-alive\nHost:movil.colombiaaprende.edu.co [crlf][crlf]",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},{
+"Name": "🇨🇴 Movistar sin saldo 🇨🇴",
+"SSL": true,
+"Direct": false,
+"Payload": "www.mutualser.org",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},{
+"Name": "🇨🇴 Movistar wapsapp🇨🇴",
+"SSL": true,
+"Direct": false,
+"Payload": "c.whatsapp.net",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},{
+"Name": "🇨🇴 Movistar pospago🇨🇴",
+"SSL": true,
+"Direct": false,
+"Payload": "www.rappi.com",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},{
+"Name": "🇨🇴 claro redes🇨🇴",
+"SSL": true,
+"Direct": false,
+"Payload": "tiendaclaro.com.co",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},{
+"Name": "🇨🇴 wom sin saldo🇨🇴",
+"SSL": false,
+"Direct": true,
+"Payload": "GET http://www.wom.co/ HTTP/1.1[crlf]Host: www.wom.co[crlf] Access-Control-Allow-Credentials: true, true[lf] Access-Control-Allow-Headers: X-Requested-With,Content-Type, X-Requested-With,Content-Type[lf] Access-Control-Allow-Methods: GET,PUT,OPTIONS,POST,DELETE, GET,PUT,OPTIONS,POST,DELETE[lf] Age: 8, 8[lf] Cache-Control: max-age=86400[lf] public[lf] Connection: keep-alive[lf] Content-Type: text/html; charset=UTF-8[crlf]Content-Length: 9999999999999[crlf]UseDNS: Yes[crlf]Vary: Accept-Encoding[crlf][raw][crlf][crlf][crlf]",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+},{
+"Name": "🇨🇴etb redes🇨🇴",
+"SSL": true,
+"Direct": false,
+"Payload": "c.whatsapp.net",
+"CustomProxy": false,
+"ProxyHost": "",
+"ProxyPort": ""
+  }]
+}
