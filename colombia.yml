@@ -47,15 +47,14 @@ cfw-bypass:
 cfw-latency-timeout: 5000
 
 proxies:
-- {name: 🚀tigocdn1🔮, server: 104.21.49.16, port: 443, type: vmess, uuid: be476d08-341d-4dbf-a75c-484cf43dc7be, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /testcdn, ws-headers: {Host: v2ray.mynetfree.tk}}
-- {name: 🚀tigocdn2🟦, server: 172.67.158.10, port: 443, type: vmess, uuid: be476d08-341d-4dbf-a75c-484cf43dc7be, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /testcdn, ws-headers: {Host: v2ray.mynetfree.tk}}
-- {name: 🚀tigocdn3🔯, server: 104.16.88.20, port: 443, type: vmess, uuid: be476d08-341d-4dbf-a75c-484cf43dc7be, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /testcdn, ws-headers: {Host: v2ray.mynetfree.tk}}
-- {name: 🚀tigo cdn🔯, server: 104.16.88.20, port: 443, type: vmess, uuid: dc9a9f57-3209-4176-af7b-f1e5ee79a234, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /brahian, ws-headers: {Host: v2ray.mynetfree.tk}}
+- {name: 🚀tigocdn1🔮, server: tls12.newrelic.com.cdn.cloudflare.net, port: 443, type: vmess, uuid: be476d08-341d-4dbf-a75c-484cf43dc7be, alterId: 64, cipher: auto,udp: true, tls: true, skip-cert-verify: true, network: ws, ws-path: /testcdn, ws-headers: {Host: v2ray.mynetfree.tk}}
+- {name: 🚀tigocdn2🟦, server: 162.247.243.147, port: 443, type: vmess, uuid: be476d08-341d-4dbf-a75c-484cf43dc7be, alterId: 64, cipher: auto,udp: true, tls: true, skip-cert-verify: true, network: ws, ws-path: /testcdn, ws-headers: {Host: v2ray.mynetfree.tk}}
+- {name: 🚀tigocdn3🔯, server: 104.16.88.20, port: 443, type: vmess, uuid: be476d08-341d-4dbf-a75c-484cf43dc7be, alterId: 64, cipher: auto,udp: true, tls: true, skip-cert-verify: true, network: ws, ws-path: /testcdn, ws-headers: {Host: v2ray.mynetfree.tk}}
+- {name: 🚀tigo cdn🔯, server: 104.16.88.20, port: 443, type: vmess, uuid: dc9a9f57-3209-4176-af7b-f1e5ee79a234, alterId: 64, cipher: auto,udp: true, tls: true, skip-cert-verify: true, network: ws, ws-path: /brahian, ws-headers: {Host: v2ray.mynetfree.tk}}
 - {name: 🚀movistar🍃, server: 172.104.199.205, port: 443, type: vmess, uuid: be476d08-341d-4dbf-a75c-484cf43dc7be, alterId: 64, cipher: auto,udp: true, tls: true, skip-cert-verify: true, network: ws, ws-path: /testcdn, ws-headers: {Host: www.mutualser.org}}
 - {name: 🚀movistar SIN REDES🍃, server: 172.104.199.205, port: 443, type: vmess, uuid: be476d08-341d-4dbf-a75c-484cf43dc7be, alterId: 64, cipher: auto,udp: true, tls: true, skip-cert-verify: true, network: ws, ws-path: /testcdn, ws-headers: {Host: www.mutualser.org}}
 - {name: 🚀avantel🛑, server: 172.104.199.205, port: 443, type: vmess, uuid: be476d08-341d-4dbf-a75c-484cf43dc7be, alterId: 64, cipher: auto,udp: true, tls: true, skip-cert-verify: true, network: ws, ws-path: /testcdn, ws-headers: {Host: www.gov.co}}
-- {name: 🚀won🟣, server: 172.104.199.205, port: 443, type: vmess, uuid: be476d08-341d-4dbf-a75c-484cf43dc7be, alterId: 64, cipher: auto,udp: true, tls: true, skip-cert-verify: true, network: ws, ws-path: /testcdn, ws-headers: {Host: www.wom.co}}
-  
+ 
 proxy-groups:
 - name: "PROXY"
   type: select
@@ -67,7 +66,6 @@ proxy-groups:
     - 🚀movistar🍃
     - 🚀movistar SIN REDES🍃
     - 🚀avantel🛑
-    - 🚀won🟣
 
    
  
