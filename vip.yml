@@ -51,7 +51,7 @@ proxies:
 - {name: tigocdn2, server: 104.16.88.20, port: 443, type: vmess, uuid: be476d08-341d-4dbf-a75c-484cf43dc7be, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /testcdn, ws-headers: {Host: v2ray.mynetfree.tk}}
 - {name: movistar 1, server: 172.104.199.205, port: 443, type: vmess, uuid: be476d08-341d-4dbf-a75c-484cf43dc7be, alterId: 64, cipher: auto,udp: true, tls: true, skip-cert-verify: true, network: ws, ws-path: /testcdn, ws-headers: {Host: www.mutualser.org}}
 - {name: 🚀avantel🛑, server: tr.networkvpn.ml, port: 80, type: trojan, password: HaUtfRLUAN, udp: true, skip-cert-verify: true, sni: www.mutualser.org,}
-- {name: tigo zeus , server: 162.247.243.147, port: 443, type: vmess, uuid: 18faaea1-edb8-11eb-9c96-b10e18e6cc54, alterId: 64, cipher: auto,udp: true, tls: true, skip-cert-verify: true, network: ws, ws-path: /t9vj1T4J/, ws-headers: {Host: www.zeusvpn.tk}}
+- {name: tigo zeus , server: 104.16.88.20, port: 443, type: vmess, uuid: 18faaea1-edb8-11eb-9c96-b10e18e6cc54, alterId: 64, cipher: auto,udp: true, tls: true, skip-cert-verify: true, network: ws, ws-path: /t9vj1T4J/, ws-headers: {Host: www.zeusvpn.tk}}
 
 
 - name: "movistar" 
