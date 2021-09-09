@@ -1,5 +1,5 @@
 {
-    "Version": "1.29",
+    "Version": "1.31",
     "Message": "NUEVAS PROMOS ACTUALIZADOS
 🇨🇴 avantel sin redes 
 🇨🇴 movistar sin redes
@@ -12,26 +12,33 @@ reproduciendo .................................................
      📞 llamadas voip 📺
       🎮  juegos ping bajo 🎮 :)",
     "Servers":[{
-        "Name": "1🇺🇸 usa ",
-        "SSHHost": "londres.networkvpn.ml",
+        "Name": "1🇧🇷 brasil saopaulo 🇧🇷",
+        "SSHHost": "br-wss.networkvpn.ml",
         "SSHPort": "22",
         "DropBear": "80",
         "SSLPort": "443",
-        "ProxyPort": "8080"
+        "ProxyPort": "80"
     },{
-        "Name": "2 🇨🇦 canada",
-        "SSHHost": "ca1.free.networkvpn.ml",
+        "Name": "2🇩🇪 alemania 🇩🇪",
+        "SSHHost": "cfront2.networkvpn.ml",
         "SSHPort": "22",
         "DropBear": "80",
         "SSLPort": "443",
-        "ProxyPort": "8080"
+        "ProxyPort": "80"
     },{
-        "Name": "2 🇬🇧 reino unido",
-        "SSHHost": "uk1.free.networkvpn.ml",
+        "Name": "3🇧🇷 brasil 🇧🇷",
+        "SSHHost": "cfront.networkvpn.ml",
         "SSHPort": "22",
         "DropBear": "80",
         "SSLPort": "443",
-        "ProxyPort": "8080"
+        "ProxyPort": "80"
+    },{
+        "Name": "🇬🇧 reino unido",
+        "SSHHost": "test.networkvpn.ml",
+        "SSHPort": "22",
+        "DropBear": "80",
+        "SSLPort": "443",
+        "ProxyPort": "80"
     }],
 "Tweaks": [{
 "Name": "🇨🇴 Avantel ssl🇨🇴",
@@ -42,23 +49,7 @@ reproduciendo .................................................
 "ProxyHost": "",
 "ProxyPort": ""
 },{
-"Name": "🇨🇴 Avantel 2 ssl 🇨🇴",
-"Direct": false,
-"SSL": true,
-"Payload": "coronaviruscolombia.gov.co",
-"CustomProxy": false,
-"ProxyHost": "",
-"ProxyPort": ""
-},{
-"Name": "🇨🇴 Avantel 3 payload🇨🇴",
-"SSL": false,
-"Direct": true,
-"Payload": "GET // HTTP/1.1 \nConnection: keep-alive\nHost:teprotejo.org [crlf][crlf]",
-"CustomProxy": false,
-"ProxyHost": "",
-"ProxyPort": ""
-},{
-"Name": "🇨🇴 Avantel 4 payload🇨🇴",
+"Name": "🇨🇴 Avantel  payload🇨🇴",
 "SSL": false,
 "Direct": true,
 "Payload": "GET // HTTP/1.1 \nConnection: keep-alive\nHost:movil.colombiaaprende.edu.co [crlf][crlf]",
@@ -90,10 +81,10 @@ reproduciendo .................................................
 "ProxyHost": "",
 "ProxyPort": ""
 },{
-"Name": "🇨🇴 claro redes🇨🇴",
+"Name": "🇨🇴 virgin tiktok🇨🇴",
 "SSL": true,
 "Direct": false,
-"Payload": "tiendaclaro.com.co",
+"Payload": "wwww.tiktok.com",
 "CustomProxy": false,
 "ProxyHost": "",
 "ProxyPort": ""
