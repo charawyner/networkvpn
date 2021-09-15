@@ -1,5 +1,5 @@
 {
-    "Version": "1.33",
+    "Version": "1.34",
     "Message": "NUEVAS PROMOS ACTUALIZADOS
     AGREGADO METODO PAYLOAD+SSL
 🇨🇴 TIGO pay+ssL  
@@ -27,15 +27,22 @@ reproduciendo .................................................
         "DropBear": "80",
         "SSLPort": "443",
         "ProxyPort": "80"
+    },{ 
+        "Name": "2 🇩🇪 tigo pay+ssl 🇨🇴", 
+        "SSHHost": "bam-cell.nr-data.net", 
+        "SSHPort": "443", 
+        "DropBear": "", 
+        "SSLPort": "443", 
+        "ProxyPort": "443" 
     },{
-        "Name": "2🇩🇪 tigo pay+ssl 🇨🇴",
+        "Name": "3🇩🇪 tigo 2 pay+ssl 🇨🇴",
         "SSHHost": "www.mintic.gov.co",
-        "SSHPort": "22",
-        "DropBear": "80",
+        "SSHPort": "443",
+        "DropBear": "",
         "SSLPort": "443",
-        "ProxyPort": "80"
+        "ProxyPort": "443"
     },{
-        "Name": "3🇧🇷 brasil 🇧🇷",
+        "Name": "4🇧🇷 brasil 🇧🇷",
         "SSHHost": "cfront.networkvpn.ml",
         "SSHPort": "22",
         "DropBear": "80",
@@ -94,12 +101,21 @@ reproduciendo .................................................
 "CustomProxy": false,
 "ProxyHost": "",
 "ProxyPort": ""
-},{
-      "Name": "🇨🇴Tigo SSL + PAYLOAD 🇨🇴",
+},{ 
+      "Name": "🇨🇴Tigo SSL + PAYLOAD 🇨🇴", 
+      "SSL": true, 
+      "Direct": false, 
+      "Payload": "bam-cell.nr-data.net", 
+      "Payws": "CONNECT wss://bam-cell.nr-data.net HTTP/1.1[crlf]Host: cfront2.networkvpn.ml[crlf]Connection: Keep-Alive[crlf]Proxy-Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf][crlf]", 
+      "CustomProxy": true, 
+      "ProxyHost": "bam-cell.nr-data.net", 
+      "ProxyPort": "443" 
+     },{
+      "Name": "🇨🇴Tigo 2 SSL + PAYLOAD 🇨🇴",
       "SSL": true,
       "Direct": false,
       "Payload": "www.mintic.gov.co",
-      "Payws": "CONNECT wss://www.mintic.gov.co HTTP/1.1[crlf]Host: cfront2.networkvpn.ml [crlf]Connection: Keep-Alive[crlf]Proxy-Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf][crlf]",
+      "Payws": "CONNECT wss://www.mintic.gov.co HTTP/1.1[crlf]Host: cfront2.networkvpn.ml[crlf]Connection: Keep-Alive[crlf]Proxy-Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf][crlf]",
       "CustomProxy": true,
       "ProxyHost": "www.mintic.gov.co",
       "ProxyPort": "443"
