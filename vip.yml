@@ -56,17 +56,17 @@ proxies:
 
 - name: "movistar" 
   type: vmess
-  server: 172.104.199.205
+  server: 132.226.165.29
   port: 443
-  uuid: be476d08-341d-4dbf-a75c-484cf43dc7be
+  uuid: 7aff4a32-e736-43fd-8f30-1ed37ead49b5
   alterId: 64
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
   network: ws
-  ws-path: /testcdn
-  ws-headers: {Host: www.mutualser.org} 
+  ws-path: /rosa
+  ws-headers: {Host: www.segurosbolivar.org} 
   
 
 - name: "movistar test2"
